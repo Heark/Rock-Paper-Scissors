@@ -18,7 +18,7 @@ namespace RockPaperScissors
             string comp_choice = getCompChoice();
             if (comp_choice == "Rock" )
             {
-                ret_msg = "You both chose Rock! Tie Game!"
+                ret_msg = "You both chose Rock! Tie Game!";
             }
         }
         Console.WriteLine(ret_msg);
